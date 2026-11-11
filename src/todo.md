@@ -1,0 +1,8 @@
+- create repository 
+- intizalize repository 
+- Diffrence between node_module , pakage.json, pakage-lock.json
+- install expreess 
+- create server
+- write request handeler for /hello , /test
+- install nodemon and update the script in pakage.json
+- 
