@@ -93,3 +93,18 @@ app.listen(3000, () => {
 
 //  once we do any change in our code we have to close the server and restart the server to see the changes
 // to resolve above issuse we can install nodemone globaly in our systen so it will automatically restart the server once we do any changes
+
+
+// midlewear learnig notes
+
+const mongooes = require("mongoose")
+
+const connectDB = async () => {
+    await mongooes.connect("mongodb+srv://ishanlomas998_db_user:vM2xtizZK3EweFyI@devtinder.b1h83fr.mongodb.net")
+}
+
+connectDB().then((val) => {
+    console.log("DBconected" , val)
+}).catch((error) => {
+    console.error(error)
+})
